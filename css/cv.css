@@ -1,0 +1,240 @@
+
+body{
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 5%;
+    background-color:  rgb(209, 57, 19);
+    justify-content: space-between;
+    
+}
+.photo{
+    display: flex;
+    justify-content: center;
+}
+img{
+    margin-top: 40px;
+    border-radius: 150px;
+    width: 170px;
+    height: 170px;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    
+    
+}
+.contact_main{
+    margin-top:50px; 
+}
+
+.a_propos_main{
+    margin-top: 400px;
+}
+.loisirs_main{
+    margin-bottom: 50px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-right: 5%;
+}
+.formation{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    border:1px solid rgb(209, 57, 19);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.date{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+
+.mep{
+
+    margin-left: auto;
+    width: 75%;
+    
+}
+.all_mep{
+    margin-bottom: 50px;
+    
+    
+    
+}
+.main{
+    margin-left: 70px;
+}
+.loisirs_logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(68, 64, 64);
+}
+.logo_title{
+    margin-top: 15px;
+    margin-right: 1%;
+    color: rgb(209, 57, 19);
+}
+.fa-dot-circle{
+    margin-top: 17px;
+    margin-right: 20px;
+    font-size: 15px;
+    color: rgb(209, 57, 19);
+}
+.loisirs{
+    color: rgb(245, 239, 239);
+    margin-top: 17px;
+    margin-right: 20%;
+}
+.fa-circle{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 8px;
+    color: rgb(209, 57, 19);
+}
+.h2_side{
+    color: rgb(209, 57, 19);
+    background-color:rgb(68, 64, 64);
+    text-align: center;
+
+}
+.underline{
+    border:1px solid rgb(209, 57, 19);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 14%;
+    margin-top: -30px;
+    
+    
+}
+.title_main{
+    font-size: 40px;
+}
+.title{
+    margin-top: -60px;
+    font-size: 25px;
+    color: rgb(68, 64, 64);
+}
+
+h2{
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.kevintitle{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color:  rgb(209, 57, 19);
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+.a_propos, .contact{
+    margin-left: 5%;
+}
+
+
+.bold_p{
+    font-weight: 400;
+}
+.bold_f{
+    font-weight: 400;
+}
+
+
+
+@media all and (max-width: 1024px)
+{
+    img{
+        border-radius: 150px;
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media all and (max-device-width: 718px)
+{
+    body{
+    max-width: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 140%;
+    }
+    
+    .presentation{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
+        
+    }
+    .fa-dot-circle{
+        display: none;
+    }
+    .fa-circle{
+        display: none;
+    }
+    .main{
+        margin: auto;
+
+    }
+    .a_propos_main{
+        margin-top: auto;
+    }
+    img{
+        display: flex;
+        
+        
+        
+        
+    }    
+}
+
+
+
+
+
